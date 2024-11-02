@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(cors({
-    origin: "https://visionary-pixie-fb4d56.netlify.app"
+    origin: "https://visionary-pixie-fb4d56.netlify.app/"
 }))
 
 app.use(authRouter);
